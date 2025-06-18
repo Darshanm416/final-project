@@ -1,0 +1,25 @@
+# Ignore node modules
+node_modules
+
+# Ignore build (we rebuild inside Docker)
+build
+
+# Environment files
+.env
+.env.local
+
+# Docker
+Dockerfile
+docker-compose.yml
+
+# Dev-only files
+*.log
+npm-debug.log*
+.vscode
+.idea
+.DS_Store
+
+# Git + docs
+.git
+.gitignore
+README.md
